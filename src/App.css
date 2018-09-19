@@ -1,0 +1,51 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.NameInfo{
+display: flex;
+flex-direction: column;
+}
+.Name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Name textarea{
+  resize: none;
+  width: 500px;
+  height: 50px;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: black;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.Name span{
+  resize: none;
+  width: 500px;
+  height: 50px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: black;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
