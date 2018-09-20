@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import wordpressImg from '../../images/wordpress.png'
+import wordpressImg from '../../images/wordPress.png'
 
 import Btn from '../btn/btn';
 import Img from '../img/img';
