@@ -14,6 +14,10 @@ flex-direction: column;
   align-items: center;
   flex-direction: column;
 }
+button.plus,button.minus{
+  cursor: pointer;
+}
+
 
 .Name textarea{
   resize: none;
@@ -48,4 +52,20 @@ flex-direction: column;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+}
+.questionImg{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 400px;
+
+}
+.question{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subject{
+  font-family: 'Sniglet', cursive;
+  font-size: 1.4em;
 }
