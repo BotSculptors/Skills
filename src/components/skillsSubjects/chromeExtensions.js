@@ -14,7 +14,7 @@ class ChromeExtensions extends Component {
 
         <Img src={chromeExtensionsImg} />
 
-        <Btn url='/English'/>
+        <Btn url='/english'/>
 
       </div>
 
