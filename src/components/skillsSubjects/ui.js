@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import uiImg from '../../images/uiql.png'
+import uiImg from '../../images/ui.png'
 
 import Btn from '../btn/btn';
 import Img from '../img/img';

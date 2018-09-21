@@ -12,7 +12,7 @@ class MsSql extends Component {
 
         <span className="subject">MsSQL</span>
 
-        <Img src={msSql} />
+        <Img src={msSqlImg} />
 
         <Btn url='/postgreSql'/>
 
