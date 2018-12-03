@@ -53,10 +53,12 @@ button.plus,button.minus{
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
+
 .questionImg{
   margin-bottom: 20px;
   margin-top: 10px;
   width: 400px;
+
 
 }
 .question{
@@ -64,6 +66,7 @@ button.plus,button.minus{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 600px;
 }
 .subject{
   font-family: 'Sniglet', cursive;

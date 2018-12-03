@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Question from './question';
 
 import '../App.css';
 
@@ -9,10 +8,6 @@ class App extends Component {
     return (
 
       <div className="App">
-
-
-          <Question/>
-
 
       </div>
     );

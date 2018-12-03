@@ -5,14 +5,16 @@ import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 
 
+
+const listItems = str.map((number,i) =>
+<div key={i}>
+  <li >{number.SubjectName}</li>
+  <li >{number.ImageSrc}</li>
+  </div>
+);
+
 ReactDOM.render(
 
 
-<App/>
-
-
-
-
-
-, document.getElementById('root'));
+listItems, document.getElementById('root'));
 registerServiceWorker();
