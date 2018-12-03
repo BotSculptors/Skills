@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 
-class Img extends Component {
+export class SubjectImg extends Component {
   render() {
     return (
       <img alt="foto" className="questionImg" src={this.props.src} />
     );
   }
 }
-
-export default Img ;

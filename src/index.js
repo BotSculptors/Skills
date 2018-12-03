@@ -6,15 +6,8 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 
-const listItems = str.map((number,i) =>
-<div key={i}>
-  <li >{number.SubjectName}</li>
-  <li >{number.ImageSrc}</li>
-  </div>
-);
-
 ReactDOM.render(
 
 
-listItems, document.getElementById('root'));
+<App/>, document.getElementById('root'));
 registerServiceWorker();
